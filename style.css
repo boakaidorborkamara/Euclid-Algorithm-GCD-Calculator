@@ -38,10 +38,17 @@ input{
 }
 
 #result-box{
-    background-color: rgb(182, 170, 168);
+    /* background-color: rgb(182, 170, 168); */
     padding: 10px;
     width: 70%;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+#result-box p{
+    color: red;
+    font-size: 2em;
+    font-style: bold;
 }
 
 .result-area{
@@ -50,6 +57,7 @@ input{
     text-align: center;
     margin-top: 20px;
     background-color:turquoise;
+    font-size: 3em;
 }
 
 button{
